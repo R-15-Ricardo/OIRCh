@@ -1,0 +1,4 @@
+Compiladores: Programas para necesarios para programar en C++, en karel y en Processing
+Examenes: Todos los examenes de todo (c++, karel, logica)
+Problemas de practica: Problemas sencillos de C++ para comenzar a entender
+Visto con el inge: Todo lo que hemos visto con el inge (mas info en la carpeta)

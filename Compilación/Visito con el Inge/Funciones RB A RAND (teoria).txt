@@ -1,0 +1,57 @@
+//Ejemplo de re corrimiento de binarios
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	unsigned int a=3; 
+	cout <<((a>>1)<<1)<<endl;
+}
+
+//Muestra la cantidad de estados de cada tipo de variable 
+
+#include <iostream>
+using namespace std;
+int main() 
+{
+	int a;
+	float b;
+	double c;
+	char d;
+	bool e;
+	cout<<sizeof(a)*8
+	<<endl;
+	cout<<sizeof(b)*8<<endl;
+	cout<<sizeof(c)*8<<endl;
+	cout<<sizeof(d)*8<<endl;
+	cout<<sizeof(e)*8<<endl;
+	return 0;
+}
+
+//Ejemplo de reemplazo de variables por dirección física (apuntadores)
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int* a;
+	int b;
+	b=5;
+	a=&(b);
+	*a=3;
+	cout <<b<<endl;
+}
+
+// Estructura función random
+
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+int main ()
+{
+	srand((unsigned)time(NULL)); 
+	int n;
+	n=rand()%100+1;
+}

@@ -1,0 +1,10 @@
+Los codigos estan organizados del mas facil al mas complejo.
+
+Todos los codigos aqui, los hemos visto con el Inge.
+
+Los codigos estan supercomentados para que se entiendan facil (creo...).
+
+Cualquier duda consultar:
+-Al Inge
+-TEXTO CON TEORIA.PDF (Incluido en el drive)
+-http://www.cplusplus.com/ (Está en ingles)

@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int aux;
+	int cont=0;
+	
+	cout<<"Espanol: ";
+	cin>>aux;
+	cont+=(aux>=60)?1:0;
+	cout<<"Ingles: ";
+	cin>>aux;
+	cont+=(aux>=60)?1:0;
+	cout<<"Matematicas: ";
+	cin>>aux;
+	cont+=(aux>=60)?1:0;
+
+	if(cont>1)
+	{
+		cout<<"Te prestamos el carro"<<endl;
+	}
+
+
+	return 0;
+}

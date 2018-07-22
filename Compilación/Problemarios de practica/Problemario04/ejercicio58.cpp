@@ -1,0 +1,35 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	srand((unsigned)time(NULL));//semilla aleatoria
+	int volado;
+	int desicion;
+	int cont=0;
+	
+	for(int i=0;i<5;i++)
+	{
+		volado = rand()%2+1;
+		cout<<"Que escoges (1/2)"<<endl;
+		cin>>desicion;
+		if(desicion==volado)
+		{
+			cont++;
+		}
+		
+	}
+	if(cont>=3)
+	{
+		cout<<"Suertudo EXENTASTE"<<endl;		
+	}
+	else
+	{
+		cout<<"JAJA, Te la pelas"<<endl;
+	}
+	
+
+	return 0;
+}

@@ -5,13 +5,14 @@ using namespace std;
 typedef struct ND {
     int x;
     int y;
+    int dts;
     int src;
 } node;
 
 struct CustomCompare {
     bool operator()(const node& a, const node& b)
     {
-        return  < rhs;
+        return  a.dts < b.dts;
     }
 };
 
